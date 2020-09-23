@@ -261,10 +261,6 @@ Next, we'll install RVM, also known as RVM. I've purposefully listed commands 3 
     sudo apt-get install rvm
     ```
 
-7. Run:
-    ```
-    source ~/.bashrc
-    ```
 
 For all intents and purposes, RVM is now installed. However, to start using it, you must ***SHUT DOWN YOUR UBUNTU TERMINAL AND REOPEN IT AGAIN.***
 
@@ -547,7 +543,7 @@ You'll notice that we set up our `.learn-config` file with a path destination of
 
 1. Run: 
     ```
-    cd ~ &&  mkdir development/flatiron && mkdir development/flatiron/labs && rm -rf ~/development/code
+    cd ~ &&  mkdir development && mkdir development/flatiron && mkdir development/flatiron/labs
     ```
 
 <br/>
