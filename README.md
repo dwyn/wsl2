@@ -266,13 +266,13 @@ For all intents and purposes, RVM is now installed. However, to start using it, 
 
 Moving right along, let's install the Ruby version compatible with Flatiron labs, we want to download ruby 2.6.1 and set it as our default:
 
-8. This following will install Ruby version 2.6.1, which is what Flatiron uses for its curriculum. Run:
+7. This following will install Ruby version 2.6.1, which is what Flatiron uses for its curriculum. Run:
     ```
     rvm install 2.6.1
     ```
 
 
-9. The following will set Ruby version `2.6.1` to be our default Ruby. Run: 
+8. The following will set Ruby version `2.6.1` to be our default Ruby. Run: 
     ```
     rvm use 2.6.1 --default
     ```
@@ -283,13 +283,13 @@ Moving right along, let's install the Ruby version compatible with Flatiron labs
 
 ## Gem Installations <a name="gems"></a>
 
-10. The following will install a Ruby gem named [Bundler](https://rubygems.org/gems/bundler). (follow the hyperlink if you are curious as to what Bundler does) Run:
+9. The following will install a Ruby gem named [Bundler](https://rubygems.org/gems/bundler). (follow the hyperlink if you are curious as to what Bundler does) Run:
     ```
     gem install bundler
     ```
 
 
-11. The following will allow you to use commands like "*learn open*", "*learn test*", and "*learn submit*". For more information on the [Learn gem](https://rubygems.org/gems/learn-co), follow that hyperlink!  Run: 
+10. The following will allow you to use commands like "*learn open*", "*learn test*", and "*learn submit*". For more information on the [Learn gem](https://rubygems.org/gems/learn-co), follow that hyperlink!  Run: 
     ```
     gem install learn-co
     ```
@@ -319,19 +319,19 @@ Moving right along, let's install the Ruby version compatible with Flatiron labs
     ```
 
 
-12. The following will install the lovely debugging tool [Pry](https://rubygems.org/gems/pry). Seriously ask yourself, where would you be without [Pry](https://rubygems.org/gems/pry)!? Run:
+11. The following will install the lovely debugging tool [Pry](https://rubygems.org/gems/pry). Seriously ask yourself, where would you be without [Pry](https://rubygems.org/gems/pry)!? Run:
     ```
     gem install pry
     ```
 
 
-13. As if [Rails](https://rubygems.org/gems/rails) needs an introduction! (but just incase, follow the hyperlink!) Run:
+12. As if [Rails](https://rubygems.org/gems/rails) needs an introduction! (but just incase, follow the hyperlink!) Run:
     ```
     gem install rails
     ```
 
 
-14. [Nokogiri](https://rubygems.org/gems/nokogiri) has many uses -- You will primarily use it to scrape websites so definitely install it and check out the documentation. Run: 
+13. [Nokogiri](https://rubygems.org/gems/nokogiri) has many uses -- You will primarily use it to scrape websites so definitely install it and check out the documentation. Run: 
     ```
     gem install nokogiri
     ```
@@ -343,7 +343,7 @@ That should be all for necessary gems. Let's move on to configuring our version 
 
 ## Configure Git<a name="git"></a>
 
-15. This (and the next 2 commands) will set up git in your system. When you enter these commands, your terminal will not say anything -- don't worry, it definitely worked! Run:
+14. This (and the next 2 commands) will set up git in your system. When you enter these commands, your terminal will not say anything -- don't worry, it definitely worked! Run:
     ```
     git config --global color.ui true
     ```
@@ -351,7 +351,7 @@ That should be all for necessary gems. Let's move on to configuring our version 
 
 *For the next few commands, make sure to input your specific information:*
 
-16. Please please please replace your YOUR_GITHUB_USER_NAME, with your actual github username. For example, mine would look something like: &nbsp;  *git config --global user.name "dwyn"* &nbsp; Run: 
+15. Please please please replace your YOUR_GITHUB_USER_NAME, with your actual github username. For example, mine would look something like: &nbsp;  *git config --global user.name "dwyn"* &nbsp; Run: 
     ```
     git config --global user.name YOUR_GITHUB_USER_NAME
     ```
@@ -363,7 +363,7 @@ That should be all for necessary gems. Let's move on to configuring our version 
     ```
 
 
-17. The following is essentially repeating the same process, but with the email address tied to your github account. Run
+16. The following is essentially repeating the same process, but with the email address tied to your github account. Run
     ```
     git config --global user.email YOUR_GITHUB_EMAIL_ADDRESS
     ```
@@ -375,19 +375,19 @@ That should be all for necessary gems. Let's move on to configuring our version 
 [Node Version Manager](https://www.keycdn.com/blog/node-version-manager#:~:text=What%20is%20Node%20Version%20Manager,via%20the%20command%20line%20interface.) is a tool that allows programmers to seamlessly switch between different versions of Node. I would say it's akin to Ruby Version Manager, but for Node. [Node](https://www.codecademy.com/articles/what-is-node) allows developers to write JavaScript code that runs directly in a computer process itself instead of in a browser.
 
 
-20. The following will install NVM, baby! &nbsp; Run:
+17. The following will install NVM, baby! &nbsp; Run:
     ```
     curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
     ```
 
 
-21. Let's refresh your terminal! &nbsp; Run:
+18. Let's refresh your terminal! &nbsp; Run:
     ```
     source ~/.bashrc
     ```
 
 
-22. The following will install Node.JS! Run: 
+19. The following will install Node.JS! Run: 
     ```
     nvm install node
     ```
